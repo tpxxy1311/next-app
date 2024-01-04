@@ -1,0 +1,13 @@
+.counterWrapper {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .counterWrapper {
+    gap: 30px;
+  }
+}
