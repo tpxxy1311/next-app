@@ -1,3 +1,4 @@
+'use client'
 import styles from "./gauge.module.css";
 
 export default function Gauge({ value }) {
