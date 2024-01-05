@@ -6,7 +6,7 @@ export default function Userlist({users}) {
     <div className={styles.userbox}>
       <ul>
         {users.map((user)=>
-            <User user={user}/>
+            <User key={user.id}user={user}/>
         )}
       </ul>
     </div>
